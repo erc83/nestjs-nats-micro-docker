@@ -1,6 +1,15 @@
 version: '3.8'
 
 services:
+
+  nats-servers:
+    image: nats:2.10.26
+    container_name: nats
+    ports:
+      - "4222:4222"         ## for client
+      - "8222:8222"         ## HTTP management port informacion reporting
+      - "6222:6222"         ## is a routing port for clustering
+
   client-gateway-nestjs:
     build: ./client_gateway_nestjs
     ports:
