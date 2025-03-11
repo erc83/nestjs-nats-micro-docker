@@ -1,0 +1,9 @@
+[submodule "client_gateway_nestjs"]
+	path = client_gateway_nestjs
+	url = git@github.com:Microservices-nestjs-erc83/client_gateway_nestjs.git
+[submodule "orders-ms-nestjs"]
+	path = orders-ms-nestjs
+	url = git@github.com:Microservices-nestjs-erc83/orders-ms-nestjs.git
+[submodule "products-ms-nestjs"]
+	path = products-ms-nestjs
+	url = git@github.com:Microservices-nestjs-erc83/products-ms-nestjs.git
